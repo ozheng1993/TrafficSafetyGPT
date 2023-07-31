@@ -6,7 +6,7 @@ Ou Zheng<sup>1</sup>, Mohamed Abdel-Aty<sup>2</sup>, Dongdong Wang<sup>3</sup>, 
 [![Custom badge](https://img.shields.io/badge/paper-Arxiv-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.15311)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/HUANGLIZI/ChatDoctor/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
-[![Page](https://img.shields.io/badge/Web-Page-yellow)](https://www.yunxiangli.top/ChatDoctor/) 
+
 ## Resources List
 
 UCF Traffic Safety data from NSTHA Model Minimum Uniform Crash Criteria (MMUCC) Guideline Fourth edition, FHWA The Highway Safety Manual (HSM)[TrafficSafety-2K ](https://docs.google.com/spreadsheets/d/1PTztJw3pq1Eau0ZM2uL7N_yilv6H36QC/edit?usp=sharing&ouid=105044560872530659805&rtpof=true&sd=true).
