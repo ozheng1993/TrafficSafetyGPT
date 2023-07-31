@@ -3,6 +3,7 @@ Large Language Models (LLMs) have shown remarkable effectiveness in various gene
 
 Ou Zheng<sup>1</sup>, Mohamed Abdel-Aty<sup>2</sup>, Dongdong Wang<sup>3</sup>, Chenzhu Wang<sup>4</sup>, Shengxuan Ding<sup>5</sup>
 
+[![Custom badge](https://img.shields.io/badge/paper-Arxiv-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.06648)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/HUANGLIZI/ChatDoctor/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Page](https://img.shields.io/badge/Web-Page-yellow)](https://www.yunxiangli.top/ChatDoctor/) 
@@ -59,6 +60,12 @@ WORLD_SIZE=6 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5 torchrun --nproc_per_node=6 --mast
  ```python
 python chat.py
  ```
+## Acknowledgments
+
+We would like to thank the authors and developers of the following projects, this project is built upon these great projects.
+- [ChatDoctor)]([https://sumo.dlr.de/](https://github.com/Kent0n-Li/ChatDoctor))
+- [Stanford_Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
+- [LLaMa](https://ai.meta.com/blog/large-language-model-llama-meta-ai/)
 
 ## Reference
 
