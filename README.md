@@ -3,7 +3,7 @@ Large Language Models (LLMs) have shown remarkable effectiveness in various gene
 
 Ou Zheng<sup>1</sup>, Mohamed Abdel-Aty<sup>2</sup>, Dongdong Wang<sup>3</sup>, Chenzhu Wang<sup>4</sup>, Shengxuan Ding<sup>5</sup>
 
-[![Custom badge](https://img.shields.io/badge/paper-Arxiv-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.06648)
+[![Custom badge](https://img.shields.io/badge/paper-Arxiv-b31b1b?logo=arxiv&logoColor=white)]([https://arxiv.org/abs/2307.06648](https://arxiv.org/abs/2307.15311))
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/HUANGLIZI/ChatDoctor/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Page](https://img.shields.io/badge/Web-Page-yellow)](https://www.yunxiangli.top/ChatDoctor/) 
