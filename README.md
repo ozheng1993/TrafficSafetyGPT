@@ -58,12 +58,13 @@ WORLD_SIZE=6 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5 torchrun --nproc_per_node=6 --mast
  ## How to inference
  You can build a ChatDoctor model on your own machine and communicate with it.
  ```python
-python chat.py
+
  ```
 ## Acknowledgments
 
 We would like to thank the authors and developers of the following projects, this project is built upon these great projects.
-- [ChatDoctor)]([https://sumo.dlr.de/](https://github.com/Kent0n-Li/ChatDoctor))
+
+- [ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor)
 - [Stanford_Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [LLaMa](https://ai.meta.com/blog/large-language-model-llama-meta-ai/)
 
