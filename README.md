@@ -14,6 +14,19 @@ UCF Traffic Safety data from NSTHA Model Minimum Uniform Crash Criteria (MMUCC) 
 Stanford Alpaca data for basic conversational capabilities. [Alpaca link](https://github.com/Kent0n-Li/ChatDoctor/blob/main/alpaca_data.json).
 
  ## How to fine-tuning
+ 
+
+We fine-tune our models using standard Hugging Face training code.
+We fine-tune LLaMA-7B with the following hyperparameters:
+
+| Hyperparameter | LLaMA-7B | 
+|----------------|----------|
+| Batch size     | 128      | 
+| Learning rate  | 2e-5     | 
+| Epochs         | 3        |
+| Max length     | 512      | 
+| Weight decay   | 0        | 
+
 
  ```python
 torchrun 
