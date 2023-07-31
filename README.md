@@ -16,43 +16,13 @@ Stanford Alpaca data for basic conversational capabilities. [Alpaca link](https:
  ## How to fine-tuning
 
  ```python
-torchrun --nproc_per_node=4 --master_port=<your_random_port> train.py \
-    --model_name_or_path <your_path_to_hf_converted_llama_ckpt_and_tokenizer> \
-    --data_path ./HealthCareMagic-100k.json \
-    --bf16 True \
-    --output_dir pretrained \
-    --num_train_epochs 1 \
-    --per_device_train_batch_size 4 \
-    --per_device_eval_batch_size 4 \
-    --gradient_accumulation_steps 8 \
-    --evaluation_strategy "no" \
-    --save_strategy "steps" \
-    --save_steps 2000 \
-    --save_total_limit 1 \
-    --learning_rate 2e-6 \
-    --weight_decay 0. \
-    --warmup_ratio 0.03 \
-    --lr_scheduler_type "cosine" \
-    --logging_steps 1 \
-    --fsdp "full_shard auto_wrap" \
-    --fsdp_transformer_layer_cls_to_wrap 'LLaMADecoderLayer' \
-    --tf32 True
+torchrun 
  ```
  
  
 Fine-tuning with Lora 
 ```python
-WORLD_SIZE=6 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5 torchrun --nproc_per_node=6 --master_port=4567 train_lora.py \
-  --base_model './weights-alpaca/' \
-  --data_path 'HealthCareMagic-100k.json' \
-  --output_dir './lora_models/' \
-  --batch_size 32 \
-  --micro_batch_size 4 \
-  --num_epochs 1 \
-  --learning_rate 3e-5 \
-  --cutoff_len 256 \
-  --val_set_size 120 \
-  --adapter_name lora
+
  ```
  
  ## How to inference
